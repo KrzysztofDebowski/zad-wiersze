@@ -492,4 +492,11 @@ public function podrozdunajcemAction()
     {
         return $this->render('default/bambo.html.twig');
     }
+    /**
+     * @Route("/egoista.html", name="egoista")
+     */
+    public function egoistaAction()
+    {
+        return $this->render('default/egoista.html.twig');
+    }
 }
